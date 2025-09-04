@@ -123,7 +123,7 @@ export const structuredDataPerson = {
   email: "kinjal.desai@sickkids.ca",
   alumniOf: {
     "@type": "Organization",
-    name: "University of Toronto"
+    name: "Dartmouth College"
   }
 }
 

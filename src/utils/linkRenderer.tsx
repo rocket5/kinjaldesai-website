@@ -34,11 +34,13 @@ export function renderTextWithLinks(text: string, links?: LinkData[]): React.Rea
         }
         
         // Add the link
+        const isExternal = link.href.startsWith('http');
         elements.push(
           <Link 
             key={`${lineIndex}-${elementKey++}`}
             href={link.href} 
             className="text-[var(--blue-1)] underline hover:no-underline"
+            {...(isExternal && { target: '_blank', rel: 'noopener noreferrer' })}
           >
             {link.text}
           </Link>
