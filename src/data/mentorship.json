@@ -1,0 +1,134 @@
+{
+  "teachingAndMentorship": {
+    "title": "Teaching and Mentorship Experience",
+    "experiences": [
+      {
+        "title": "Mentorship of Trainees",
+        "institution": "The Hospital for Sick Children and University of Toronto",
+        "period": "2011 – present",
+        "description": "PhD co-supervisor: Juan Pablo Escorcia (2024–present, co-supervised with Dr. Peter Dirks)<br />MHSc research practicum supervisor: Aastha Patel (2024–2025); Connie Fierro (2025–2026)<br />Research mentorship: providing conceptual feedback and advice, helping with experimental design, monitoring progress, and sharing feedback on their results; 3 PhD students, 3 PhD rotation students, 2 MSc students, 6 summer students.<br />Undergraduate engagement & outreach: Hosted site visits and informational interviews for 5 students from U of T Mississauga's Anatomy and Physiology program."
+      },
+      {
+        "title": "Course Coordinator and Lead Instructor",
+        "institution": "Advanced Human Genetics (MMG 3001Y), Department of Molecular Genetics, University of Toronto",
+        "period": "2023 – 2026",
+        "description": "[Lead instructor and coordinator] for a two-semester core [graduate course] in the Master of Health Sciences (MHSc) in Medical Genomics program, enrolling approximately 22–25 students annually.\nThis includes hands-on teaching, mentorship, and course coordination, and conveying complex material in an accessible way over a sustained period of time (1 or 2 terms).",
+        "links": [
+          { "text": "Lead instructor and coordinator", "href": "https://moleculargenetics.utoronto.ca/news/dr-kinjal-desai-medical-genomics-faculty-spotlight" },
+          { "text": "graduate course", "href": "https://moleculargenetics.utoronto.ca/medgen-curriculum#anchor-ahg" }
+        ]
+      },
+      {
+        "title": "Co-Organizer and Instructor",
+        "institution": "Low Input Epigenomics Workshop, Wellcome Genome Campus, UK",
+        "period": "2024 & 2025",
+        "description": "Co-organizer and lead instructor (CUT&RUN and CUT&Tag module) of this competitive, international 8-day [workshop] for senior PhD students, postdocs, and early-career investigators.\nDelivered comprehensive and hands-on theoretical and laboratory training on epigenomic profiling in rare cell populations and low-input samples.",
+        "links": [
+          { "text": "workshop", "href": "https://coursesandconferences.wellcomeconnectingscience.org/event/low-input-epigenomics-20250509/" }
+        ]
+      }
+    ],
+    "additionalTeaching": {
+      "title": "Additional Teaching Experience",
+      "items": [
+        {
+          "period": "2019 - 2023",
+          "role": "Instructor",
+          "institution": "University of Toronto School of Continuing Studies, Toronto, Canada"
+        },
+        {
+          "period": "2020 - 2025",
+          "role": "Guest Lecturer",
+          "institution": "Advanced Human Genetics (MMG 3001Y) | Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+        },
+        {
+          "period": "2019",
+          "role": "Guest Lecturer",
+          "institution": "Royal Conservatory of Music, Toronto, Canada"
+        },
+        {
+          "period": "2020",
+          "role": "Guest Expert",
+          "institution": "Online Healthcare Forum, Toronto, Canada"
+        },
+        {
+          "period": "2011",
+          "role": "Teaching Assistant",
+          "institution": "Dartmouth College, Hanover, USA"
+        }
+      ]
+    }
+  },
+  "academicService": {
+    "title": "Academic Service and Professional Experience",
+    "items": [
+      {
+        "period": "June 2025",
+        "role": "Session Chair",
+        "institution": "Scientific Retreat, Departments of Genetics and Genome Biology & Developmental, Stem Cell, and Cancer Biology, The Hospital for Sick Children, Blue Mountain, Ontario, Canada"
+      },
+      {
+        "period": "June 2025",
+        "role": "Judge",
+        "details": "Oral Presentations & Posters",
+        "institution": "Garron Family Cancer Centre Research Day, The Hospital for Sick Children, Toronto, Canada"
+      },
+      {
+        "period": "2023 - 2025",
+        "role": "Panelist (Scientific Reviewer and Scientific Officer), Grant and Fellowship Applications",
+        "institution": "Canadian Cancer Society, Toronto, Canada"
+      },
+      {
+        "period": "October 2024",
+        "role": "Invited Speaker",
+        "institution": "University of Toronto – Molecular Genetics & Microbiology Student Union (MGYSU), Toronto, Canada"
+      },
+      {
+        "period": "August 2024",
+        "role": "Judge",
+        "details": "Student Poster Presentations",
+        "institution": "Summer Research Symposium (SSuRe), SickKids, Toronto, Canada"
+      },
+      {
+        "period": "July 2024",
+        "role": "Invited Participant",
+        "institution": "CRUK Children's Brain Tumour Excellence Summer School, University of Cambridge, UK"
+      },
+      {
+        "period": "July 2024",
+        "role": "Invited Panelist",
+        "institution": "The Hospital for Sick Children Research Integrity Symposium, Toronto, Canada"
+      }
+    ]
+  },
+  "communityService": {
+    "title": "Community Service",
+    "items": [
+      {
+        "period": "2024 - Present",
+        "role": "Advisory Board Member",
+        "institution": "Stay at Home Nursing Care, Toronto, Canada"
+      },
+      {
+        "period": "2023 - Present",
+        "role": "Scientist Partner",
+        "institution": "Skype a Scientist, Philadelphia, USA"
+      },
+      {
+        "period": "2023 - Present",
+        "role": "Community Outreach Representative",
+        "institution": "Canadian Cancer Society, Toronto, Canada"
+      },
+      {
+        "period": "2016 - 2023",
+        "role": "Community Outreach Lead",
+        "institution": "Toronto Research Information Outreach Team (R.I.O.T.) and the Canadian Cancer Society, Toronto, Canada"
+      },
+      {
+        "period": "2019 - 2022",
+        "role": "Child Life Volunteer",
+        "institution": "The Hospital for Sick, Toronto, Canada"
+      }
+    ]
+  }
+}
