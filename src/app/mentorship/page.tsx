@@ -4,11 +4,23 @@ import profileData from "~/data/profile.json";
 import mentorshipData from "~/data/mentorship.json";
 import { icons } from "~/components/icons";
 import { renderTextWithLinks } from "~/utils/linkRenderer";
+import { generatePageMetadata } from "~/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Mentorship, Academic & Community Service - Kinjal Desai, PhD",
+export const metadata: Metadata = generatePageMetadata({
+  title: "Mentorship, Academic & Community Service",
   description: "Teaching and mentorship experience, academic service, and community service by Dr. Kinjal Desai, Senior Research Associate specializing in cancer biology and pediatric neuro-oncology.",
-};
+  keywords: [
+    "academic mentorship",
+    "teaching experience", 
+    "community service",
+    "academic service",
+    "research supervision",
+    "graduate education",
+    "cancer biology education",
+    "peer review"
+  ],
+  path: "/mentorship"
+});
 
 export default function Mentorship() {
   return (

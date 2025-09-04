@@ -1,8 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
+import { type Metadata } from "next";
 import profileData from "~/data/profile.json";
 import contentData from "~/data/content.json";
 import { icons } from "~/components/icons";
+import { generatePageMetadata, siteTitle, siteDescription } from "~/lib/seo";
+
+export const metadata: Metadata = generatePageMetadata({
+  title: siteTitle,
+  description: siteDescription,
+  keywords: ["developmental biology", "functional genomics", "preclinical drug targeting"],
+  path: "/"
+});
 
 export default function Home() {
   return (

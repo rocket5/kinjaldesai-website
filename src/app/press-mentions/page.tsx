@@ -3,11 +3,23 @@ import { type Metadata } from "next";
 import profileData from "~/data/profile.json";
 import pressData from "~/data/press.json";
 import { icons } from "~/components/icons";
+import { generatePageMetadata } from "~/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Press Coverage and Mentions - Kinjal Desai, PhD",
+export const metadata: Metadata = generatePageMetadata({
+  title: "Press Mentions",
   description: "Press coverage and mentions of Dr. Kinjal Desai's research in scientific community and popular media, including national news outlets and university features.",
-};
+  keywords: [
+    "press coverage",
+    "media mentions",
+    "research news",
+    "scientific news",
+    "cancer research news",
+    "medulloblastoma news",
+    "academic research coverage",
+    "science journalism"
+  ],
+  path: "/press-mentions"
+});
 
 export default function PressMentions() {
   return (

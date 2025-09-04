@@ -3,11 +3,23 @@ import { type Metadata } from "next";
 import profileData from "~/data/profile.json";
 import presentationsData from "~/data/presentations.json";
 import { icons } from "~/components/icons";
+import { generatePageMetadata } from "~/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Presentations - Kinjal Desai, PhD",
+export const metadata: Metadata = generatePageMetadata({
+  title: "Presentations",
   description: "Oral presentations and poster presentations by Dr. Kinjal Desai, Senior Research Associate specializing in cancer biology and pediatric neuro-oncology.",
-};
+  keywords: [
+    "scientific presentations",
+    "research presentations",
+    "poster presentations", 
+    "oral presentations",
+    "academic conferences",
+    "cancer research presentations",
+    "medulloblastoma research",
+    "scientific conferences"
+  ],
+  path: "/presentations"
+});
 
 export default function Presentations() {
   return (

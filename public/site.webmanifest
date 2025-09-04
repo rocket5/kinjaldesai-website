@@ -1,0 +1,39 @@
+{
+  "name": "Kinjal Desai, PhD - Senior Research Associate",
+  "short_name": "Kinjal Desai PhD",
+  "description": "Dr. Kinjal Desai is a Senior Research Associate specializing in cancer biology, developmental stem cell biology, and pediatric neuro-oncology at The Hospital for Sick Children.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2F80ED",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["science", "research", "medical", "education"],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png", 
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
