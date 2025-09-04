@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --gray-3: #828282;
+  --heading: #0044A0;
+  --blue-1: #2F80ED;
+}
+
+@theme {
+  --font-sans: var(--font-inter), Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  --color-gray-3: #828282;
+  --color-heading: #0044A0;
+  --color-blue-1: #2F80ED;
+}
