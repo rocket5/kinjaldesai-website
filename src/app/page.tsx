@@ -53,6 +53,24 @@ export default function Home() {
               <div className="links flex flex-col gap-4 md:gap-4">
                 {profileData.profileLinks.map((link, index) => {
                   const isExternal = link.href.startsWith('http') || link.href.endsWith('.pdf');
+                  
+                  if (link.href.endsWith('.pdf')) {
+                    return (
+                      <a 
+                        key={index} 
+                        href={link.href} 
+                        className="link-item flex items-center gap-1"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        {icons[link.icon as keyof typeof icons]}
+                        <span className="link-text text-[var(--blue-1)] hover:underline">
+                          {link.label}
+                        </span>
+                      </a>
+                    );
+                  }
+                  
                   return (
                     <Link 
                       key={index} 
