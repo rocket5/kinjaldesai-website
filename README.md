@@ -1,29 +1,109 @@
-# Create T3 App
+# Dr. Kinjal Desai - Personal Website
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A professional website for Dr. Kinjal Desai, PhD, Senior Research Associate. Built with modern web technologies to showcase research, presentations, press mentions, and professional activities.
 
-## What's next? How do I make an app with this?
+## Overview
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+This is a personal academic website featuring:
+- Professional profile and research highlights
+- Presentations and publications showcase
+- Press mentions and media coverage
+- Mentorship and community service activities
+- Contact information and professional links
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Tech Stack
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+This project is built with the **T3 Stack** and includes:
 
-## Learn More
+- **Next.js 15** (App Router) - React framework with file-based routing
+- **TypeScript** - Type safety throughout the codebase
+- **tRPC** - Type-safe API layer for client-server communication
+- **TanStack Query** (React Query) - Server state management
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Builder.io** - Content management integration
+- **Zod** - Runtime schema validation
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## Getting Started
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### Prerequisites
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- Node.js 18+ 
+- pnpm package manager
 
-## How do I deploy this?
+### Installation
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```bash
+# Clone the repository
+git clone https://github.com/username/kinjaldesai-website.git
+cd kinjaldesai-website
+
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Development Commands
+
+- `pnpm dev` - Start development server with Turbo
+- `pnpm build` - Build the application for production 
+- `pnpm start` - Start production server
+- `pnpm preview` - Build and start production server
+- `pnpm lint` - Run ESLint
+- `pnpm lint:fix` - Run ESLint with auto-fix
+- `pnpm typecheck` - Run TypeScript type checking
+- `pnpm check` - Run both linting and type checking
+- `pnpm format:check` - Check code formatting with Prettier
+- `pnpm format:write` - Format code with Prettier
+
+## Features
+
+### Content Management
+- JSON-based content management for easy updates
+- Structured data for presentations, press mentions, and mentorship activities
+- SEO optimization with structured data markup
+
+### Professional Features
+- Google Scholar integration
+- LinkedIn and ORCiD profile links
+- PDF CV download
+- Contact form functionality
+- Responsive design for all devices
+
+### Technical Features
+- Server-side rendering for optimal performance
+- Type-safe API layer with tRPC
+- Environment variable validation
+- Automated code formatting and linting
+- SEO optimization with meta tags and structured data
+
+## Deployment
+
+The application can be deployed on any platform that supports Next.js:
+
+```bash
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
+```
+
+## Environment Variables
+
+Create a `.env.local` file for local development:
+
+```env
+# Add required environment variables here
+```
+
+## Contributing
+
+This is a personal website project. For suggestions or issues, please contact Dr. Kinjal Desai directly.
+
+## License
+
+� 2025 Kinjal Desai, All Rights Reserved.
