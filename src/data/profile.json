@@ -20,27 +20,27 @@
   "profileLinks": [
     {
       "label": "My Google Scholar",
-      "href": "#",
+      "href": "https://scholar.google.com/citations?user=UTi1S1YAAAAJ&hl=en",
       "icon": "scholar"
     },
     {
       "label": "LinkedIn Profile",
-      "href": "#",
+      "href": "https://www.linkedin.com/in/kinjal-desai-966371132/",
       "icon": "linkedin"
     },
     {
       "label": "My ORCiD Profile", 
-      "href": "#",
+      "href": "https://orcid.org/0009-0002-5825-089X",
       "icon": "orcid"
     },
     {
       "label": "Contact",
-      "href": "#",
+      "href": "mailto:kdesai1506@gmail.com",
       "icon": "email"
     },
     {
       "label": "CV",
-      "href": "#",
+      "href": "/desai-cv.pdf",
       "icon": "document"
     }
   ],

@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <nav className="navigation flex flex-col gap-4 md:flex-row md:items-end md:gap-6">
               {profileData.navigation.map((item, index) => (
-                <Link key={index} href={item.href} className="link-text text-[var(--blue-1)] underline">
+                <Link key={index} href={item.href} className="link-text text-[var(--blue-1)] hover:underline">
                   {item.label}
                 </Link>
               ))}
@@ -45,7 +45,7 @@ export default function Home() {
                 {profileData.profileLinks.map((link, index) => (
                   <Link key={index} href={link.href} className="link-item flex items-center gap-1">
                     {icons[link.icon as keyof typeof icons]}
-                    <span className={`link-text text-[var(--blue-1)] ${link.icon !== 'document' ? 'underline' : ''}`}>
+                    <span className={`link-text text-[var(--blue-1)] ${link.icon !== 'document' ? 'hover:underline' : ''}`}>
                       {link.label}
                     </span>
                   </Link>
@@ -79,13 +79,13 @@ export default function Home() {
                   <div className="publications-list text-sm leading-6 text-black md:text-base">
                     {contentData.publications.entries.map((publication, index) => (
                       <span key={index}>
-                        {publication.authors} {publication.year}. <span className="text-[var(--blue-1)]">{publication.title}</span> {publication.journal}, {publication.details}
+                        {publication.authors} {publication.year}. <Link href={publication.link} className="text-[var(--blue-1)] hover:underline">{publication.title}</Link> {publication.journal}, {publication.details}
                         {index < contentData.publications.entries.length - 1 && <><br /><br /></>}
                       </span>
                     ))}
                   </div>
                   <Link href={contentData.publications.viewAllLink.href} className="publications-link flex items-center gap-1">
-                    <span className="link-text text-sm text-[var(--blue-1)] underline md:text-base">
+                    <span className="link-text text-sm text-[var(--blue-1)] md:text-base hover:underline">
                       {contentData.publications.viewAllLink.text}
                     </span>
                     {icons.externalLink}
