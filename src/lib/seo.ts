@@ -120,7 +120,7 @@ export const structuredDataPerson = {
     "https://www.linkedin.com/in/kinjal-desai-966371132/",
     "https://orcid.org/0009-0002-5825-089X"
   ],
-  email: "kdesai1506@gmail.com",
+  email: "kinjal.desai@sickkids.ca",
   alumniOf: {
     "@type": "Organization",
     name: "University of Toronto"
