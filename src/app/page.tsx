@@ -52,7 +52,7 @@ export default function Home() {
               </div>
               <div className="links flex flex-col gap-4 md:gap-4">
                 {profileData.profileLinks.map((link, index) => {
-                  const isExternal = link.href.startsWith('http');
+                  const isExternal = link.href.startsWith('http') || link.href.endsWith('.pdf');
                   return (
                     <Link 
                       key={index} 
