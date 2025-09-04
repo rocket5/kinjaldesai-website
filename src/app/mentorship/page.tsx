@@ -143,7 +143,7 @@ export default function Mentorship() {
           {/* Footer */}
           <footer className="footer flex justify-center">
             <p className="copyright-text text-sm leading-6 text-black md:text-base">
-              {profileData.footer.copyright}
+              © {new Date().getFullYear()} Kinjal Desai, All Rights Reserved.
             </p>
           </footer>
         </div>

@@ -45,7 +45,7 @@ export default function Home() {
                 {profileData.profileLinks.map((link, index) => (
                   <Link key={index} href={link.href} className="link-item flex items-center gap-1">
                     {icons[link.icon as keyof typeof icons]}
-                    <span className={`link-text text-[var(--blue-1)] ${link.icon !== 'document' ? 'hover:underline' : ''}`}>
+                    <span className="link-text text-[var(--blue-1)] hover:underline">
                       {link.label}
                     </span>
                   </Link>
@@ -98,7 +98,7 @@ export default function Home() {
           {/* Footer */}
           <footer className="footer flex justify-center">
             <p className="copyright-text text-sm leading-6 text-black md:text-base">
-              {profileData.footer.copyright}
+              © {new Date().getFullYear()} Kinjal Desai, All Rights Reserved.
             </p>
           </footer>
         </div>
