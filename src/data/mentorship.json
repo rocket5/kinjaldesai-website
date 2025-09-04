@@ -6,13 +6,21 @@
         "title": "Mentorship of Trainees",
         "institution": "The Hospital for Sick Children and University of Toronto",
         "period": "2011 – present",
-        "description": "PhD co-supervisor: Juan Pablo Escorcia (2024–present, co-supervised with Dr. Peter Dirks)<br />MHSc research practicum supervisor: Aastha Patel (2024–2025); Connie Fierro (2025–2026)<br />Research mentorship: providing conceptual feedback and advice, helping with experimental design, monitoring progress, and sharing feedback on their results; 3 PhD students, 3 PhD rotation students, 2 MSc students, 6 summer students.<br />Undergraduate engagement & outreach: Hosted site visits and informational interviews for 5 students from U of T Mississauga's Anatomy and Physiology program."
+        "bulletPoints": [
+          "PhD co-supervisor: Juan Pablo Escorcia (2024–present, co-supervised with Dr. Peter Dirks)",
+          "MHSc research practicum supervisor: Aastha Patel (2024–2025); Connie Fierro (2025–2026)",
+          "Research mentorship: providing conceptual feedback and advice, helping with experimental design, monitoring progress, and sharing feedback on their results; 3 PhD students, 3 PhD rotation students, 2 MSc students, 6 summer students.",
+          "Undergraduate engagement & outreach: Hosted site visits and informational interviews for 5 students from U of T Mississauga's Anatomy and Physiology program."
+        ]
       },
       {
         "title": "Course Coordinator and Lead Instructor",
         "institution": "Advanced Human Genetics (MMG 3001Y), Department of Molecular Genetics, University of Toronto",
         "period": "2023 – 2026",
-        "description": "[Lead instructor and coordinator] for a two-semester core [graduate course] in the Master of Health Sciences (MHSc) in Medical Genomics program, enrolling approximately 22–25 students annually.\nThis includes hands-on teaching, mentorship, and course coordination, and conveying complex material in an accessible way over a sustained period of time (1 or 2 terms).",
+        "bulletPoints": [
+          "[Lead instructor and coordinator] for a two-semester core [graduate course] in the Master of Health Sciences (MHSc) in Medical Genomics program, enrolling approximately 22–25 students annually.",
+          "This includes hands-on teaching, mentorship, and course coordination, and conveying complex material in an accessible way over a sustained period of time (1 or 2 terms)."
+        ],
         "links": [
           { "text": "Lead instructor and coordinator", "href": "https://moleculargenetics.utoronto.ca/news/dr-kinjal-desai-medical-genomics-faculty-spotlight" },
           { "text": "graduate course", "href": "https://moleculargenetics.utoronto.ca/medgen-curriculum#anchor-ahg" }
@@ -22,7 +30,10 @@
         "title": "Co-Organizer and Instructor",
         "institution": "Low Input Epigenomics Workshop, Wellcome Genome Campus, UK",
         "period": "2024 & 2025",
-        "description": "Co-organizer and lead instructor (CUT&RUN and CUT&Tag module) of this competitive, international 8-day [workshop] for senior PhD students, postdocs, and early-career investigators.\nDelivered comprehensive and hands-on theoretical and laboratory training on epigenomic profiling in rare cell populations and low-input samples.",
+        "bulletPoints": [
+          "Co-organizer and lead instructor (CUT&RUN and CUT&Tag module) of this competitive, international 8-day [workshop] for senior PhD students, postdocs, and early-career investigators.",
+          "Delivered comprehensive and hands-on theoretical and laboratory training on epigenomic profiling in rare cell populations and low-input samples."
+        ],
         "links": [
           { "text": "workshop", "href": "https://coursesandconferences.wellcomeconnectingscience.org/event/low-input-epigenomics-20250509/" }
         ]

@@ -84,7 +84,13 @@ export default function Mentorship() {
                         {experience.institution} | {experience.period}
                       </p>
                       <div className="experience-description text-sm leading-6 text-black md:text-base">
-                        {renderTextWithLinks(experience.description, experience.links)}
+                        <ul className="list-disc pl-5 space-y-2">
+                          {experience.bulletPoints.map((bulletPoint, bulletIndex) => (
+                            <li key={bulletIndex}>
+                              {renderTextWithLinks(bulletPoint, experience.links)}
+                            </li>
+                          ))}
+                        </ul>
                       </div>
                     </div>
                   ))}
