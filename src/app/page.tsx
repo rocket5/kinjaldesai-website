@@ -32,14 +32,14 @@ export default function Home() {
           {/* Hero Section */}
           <section className="hero flex flex-col gap-8 md:flex-row md:gap-16">
             {/* Sidebar */}
-            <aside className="sidebar flex flex-col items-center gap-6 md:items-start md:gap-8">
+            <aside className="sidebar flex flex-col items-start gap-6 md:gap-8">
               <div className="headshot-container relative h-[150px] w-[150px] md:h-[177px] md:w-[177px]">
                 <Image
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/d856b6037570b4f93d7ae7d0075f276fd8a54b83?width=442"
+                  src="/kinjal.png"
                   alt="Dr. Kinjal Desai headshot"
-                  width={221}
-                  height={205}
-                  className="absolute -left-[18px] top-0 h-[175px] w-[187px] flex-shrink-0 md:-left-[22px] md:h-[205px] md:w-[221px]"
+                  width={177}
+                  height={177}
+                  className="absolute -left-[18px] top-0 h-[150px] w-[150px] flex-shrink-0 md:-left-[22px] md:h-[177px] md:w-[177px]"
                 />
               </div>
               <div className="links flex flex-col gap-4 md:gap-4">
