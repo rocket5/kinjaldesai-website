@@ -1,0 +1,64 @@
+{
+  "sections": [
+    {
+      "title": "Position",
+      "content": "Senior Research Associate | Developmental, Stem Cell, and Cancer Biology | The Hospital for Sick Children"
+    },
+    {
+      "title": "Location", 
+      "content": "The Hospital for Sick Children Research Institute Peter Gilgan Centre for Research and Learning\n686 Bay Street, 16-22 PGCRL | Toronto, ON M5G 0A4"
+    },
+    {
+      "title": "Research Interests",
+      "content": "Cancer biology | Tumour initiation and progression | Functional genomics | Bioinformatics | Computational epigenetics | Transcriptional regulation | Epigenomics | Developmental and stem cell biology | Pediatric neuro-oncology | Preclinical drug targeting"
+    },
+    {
+      "title": "About",
+      "content": "Dr. Desai is an emerging expert in clinically targeting early tumour progression. Her PhD research highlighted the role of noncoding genetic variation in disease. As a postdoc with Dr. Peter Dirks at the Hospital for Sick Children, Toronto, she discovered a crucial early and targetable stem cell fate transition in medulloblastoma, showing that pharmacological inhibition prevents tumour emergence and relapse in vivo.\n\nHer research defines and dissects early regulatory circuits driving tumour evolution and recurrence in high-risk pediatric brain cancers. Building on her previous discovery, she aims to map the broader regulatory network by identifying transcription factors and epigenetic regulators across medulloblastoma and high-grade tumours, with a strong translational focus on novel molecular targets and therapeutic vulnerabilities."
+    }
+  ],
+  "publications": {
+    "title": "Select Publications",
+    "entries": [
+      {
+        "authors": "Desai, K., Wanggou, S., Luis, E., Whetstone, H., Yu, C., Vanner, R. J., Selvadurai, H. J., Lee, L., Vijay, J., Jaramillo, J. E., Fan, J., Guilhamon, P., Kushida, M., Li, X., Stein, G., Kesari, S., Simons, B. D., Huang, X., & Dirks, P. B.",
+        "year": "(2025)",
+        "title": "OLIG2 mediates a rare targetable stem cell fate transition in sonic hedgehog medulloblastoma.",
+        "journal": "Nature Communications",
+        "details": "16(1), 1092."
+      },
+      {
+        "authors": "Selvadurai, H. J.*, Luis, E.*, Desai, K., Lan, X., Vladoiu, M. C., Whitley, O., Galvin, C., Vanner, R. J., Lee, L., Whetstone, H., Kushida, M., Nowakowski, T., Diamandis, P., Hawkins, C., Bader, G., Kriegstein, A., Taylor, M. D., & Dirks, P. B.",
+        "year": "(2020)",
+        "title": "Medulloblastoma Arises from the Persistence of a Rare and Transient Sox2 Granule Neuron Precursor.",
+        "journal": "Cell Reports",
+        "details": "31(2), 107511."
+      },
+      {
+        "authors": "Park, N. I., Guilhamon, P., Desai, K., McAdam, R. F., Langille, E., O'Connor, M., Lan, X., Whetstone, H., Coutinho, F. J., Vanner, R. J., Ling, E., Prinos, P., Lee, L., Selvadurai, H., Atwal, G., Kushida, M., Clarke, I. D., Voisin, V., Cusimano, M. D., … Dirks, P. B.",
+        "year": "(2017)",
+        "title": "ASCL1 Reorganizes Chromatin to Direct Neuronal Fate and Suppress Tumorigenicity of Glioblastoma Stem Cells",
+        "journal": "Cell Stem Cell",
+        "details": "21(3), 411."
+      },
+      {
+        "authors": "Bailey, S. D.*, Desai, K.*, Kron, K. J., Mazrooei, P., Sinnott-Armstrong, N. A., Treloar, A. E., Dowar, M., Thu, K. L., Cescon, D. W., Silvester, J., Yang, S. Y. C., Wu, X., Pezo, R. C., Haibe-Kains, B., Mak, T. W., Bedard, P. L., Pugh, T. J., Sallari, R. C., & Lupien, M.",
+        "year": "(2016)",
+        "title": "Noncoding somatic and inherited single-nucleotide variants converge to promote ESR1 expression in breast cancer",
+        "journal": "Nature Genetics",
+        "details": "48(10), 1260–1266."
+      },
+      {
+        "authors": "Darabos, C.*, Desai, K.*, Cowper-Sal·lari, R., Giacobini, M., Graham, B. E., Lupien, M., & Moore, J. H.",
+        "year": "(2013)",
+        "title": "Inferring Human Phenotype Networks from Genome-Wide Genetic Associations.",
+        "journal": "Evolutionary Computation, Machine Learning and Data Mining in Bioinformatics",
+        "details": "23–34."
+      }
+    ],
+    "viewAllLink": {
+      "text": "View a full list of Dr. Desai's publications",
+      "href": "#"
+    }
+  }
+}

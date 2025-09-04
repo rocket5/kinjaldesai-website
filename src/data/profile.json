@@ -1,0 +1,54 @@
+{
+  "header": {
+    "jobTitle": "Senior Research Associate",
+    "name": "Kinjal Desai, PhD"
+  },
+  "navigation": [
+    {
+      "label": "Presentations",
+      "href": "/presentations"
+    },
+    {
+      "label": "Press Mentions", 
+      "href": "/press-mentions"
+    },
+    {
+      "label": "Mentorship, Academic & Community Service",
+      "href": "/mentorship"
+    }
+  ],
+  "profileLinks": [
+    {
+      "label": "My Google Scholar",
+      "href": "#",
+      "icon": "scholar"
+    },
+    {
+      "label": "LinkedIn Profile",
+      "href": "#",
+      "icon": "linkedin"
+    },
+    {
+      "label": "My ORCiD Profile", 
+      "href": "#",
+      "icon": "orcid"
+    },
+    {
+      "label": "Contact",
+      "href": "#",
+      "icon": "email"
+    },
+    {
+      "label": "CV",
+      "href": "#",
+      "icon": "document"
+    }
+  ],
+  "headshot": {
+    "src": "/kinjal.png",
+    "alt": "Dr. Kinjal Desai headshot"
+  },
+  "footer": {
+    "copyright": "© 2025 Kinjal Desai, All Rights Reserved."
+  }
+}
