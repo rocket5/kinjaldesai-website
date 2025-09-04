@@ -114,7 +114,7 @@ export default function Home() {
                   <div className="publications-list text-sm leading-6 text-black md:text-base">
                     {contentData.publications.entries.map((publication, index) => (
                       <span key={index}>
-                        {publication.authors} {publication.year}. <Link href={publication.link} className="text-[var(--blue-1)] hover:underline" target="_blank" rel="noopener noreferrer">{publication.title}</Link> {publication.journal}, {publication.details}
+                        {publication.authors} {publication.year}. <a href={publication.link} className="text-[var(--blue-1)] hover:underline" target="_blank" rel="noopener noreferrer">{publication.title}</a> {publication.journal}, {publication.details}
                         {index < contentData.publications.entries.length - 1 && <><br /><br /></>}
                       </span>
                     ))}
