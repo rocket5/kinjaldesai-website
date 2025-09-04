@@ -8,7 +8,10 @@ import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
 const config = BuilderDevTools()({
+  output: 'export',
+  trailingSlash: true,
   images: {
+    unoptimized: true,
     domains: ['api.builder.io'],
   },
 });
