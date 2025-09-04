@@ -41,10 +41,10 @@ export default function Presentations() {
                 <Link 
                   key={index} 
                   href={item.href} 
-                  className={`link-text text-[var(--blue-1)] hover:underline ${
+                  className={`link-text text-[var(--blue-1)] hover:underline border-b-2 ${
                     item.label === 'Presentations' 
-                      ? 'font-bold' 
-                      : ''
+                      ? 'border-[var(--blue-1)]' 
+                      : 'border-transparent'
                   }`}
                 >
                   {item.label}

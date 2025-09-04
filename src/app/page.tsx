@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <nav className="navigation flex flex-col gap-4 md:flex-row md:items-end md:gap-6">
               {profileData.navigation.map((item, index) => (
-                <Link key={index} href={item.href} className="link-text text-[var(--blue-1)] hover:underline">
+                <Link key={index} href={item.href} className="link-text text-[var(--blue-1)] hover:underline border-b-2 border-transparent">
                   {item.label}
                 </Link>
               ))}
