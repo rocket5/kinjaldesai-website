@@ -51,14 +51,22 @@ export default function Home() {
                 />
               </div>
               <div className="links flex flex-col gap-4 md:gap-4">
-                {profileData.profileLinks.map((link, index) => (
-                  <Link key={index} href={link.href} className="link-item flex items-center gap-1">
-                    {icons[link.icon as keyof typeof icons]}
-                    <span className="link-text text-[var(--blue-1)] hover:underline">
-                      {link.label}
-                    </span>
-                  </Link>
-                ))}
+                {profileData.profileLinks.map((link, index) => {
+                  const isExternal = link.href.startsWith('http');
+                  return (
+                    <Link 
+                      key={index} 
+                      href={link.href} 
+                      className="link-item flex items-center gap-1"
+                      {...(isExternal && { target: '_blank', rel: 'noopener noreferrer' })}
+                    >
+                      {icons[link.icon as keyof typeof icons]}
+                      <span className="link-text text-[var(--blue-1)] hover:underline">
+                        {link.label}
+                      </span>
+                    </Link>
+                  );
+                })}
               </div>
             </aside>
 
@@ -88,12 +96,17 @@ export default function Home() {
                   <div className="publications-list text-sm leading-6 text-black md:text-base">
                     {contentData.publications.entries.map((publication, index) => (
                       <span key={index}>
-                        {publication.authors} {publication.year}. <Link href={publication.link} className="text-[var(--blue-1)] hover:underline">{publication.title}</Link> {publication.journal}, {publication.details}
+                        {publication.authors} {publication.year}. <Link href={publication.link} className="text-[var(--blue-1)] hover:underline" target="_blank" rel="noopener noreferrer">{publication.title}</Link> {publication.journal}, {publication.details}
                         {index < contentData.publications.entries.length - 1 && <><br /><br /></>}
                       </span>
                     ))}
                   </div>
-                  <Link href={contentData.publications.viewAllLink.href} className="publications-link flex items-center gap-1">
+                  <Link 
+                    href={contentData.publications.viewAllLink.href} 
+                    className="publications-link flex items-center gap-1"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
                     <span className="link-text text-sm text-[var(--blue-1)] md:text-base hover:underline">
                       {contentData.publications.viewAllLink.text}
                     </span>
