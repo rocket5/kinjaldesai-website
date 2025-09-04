@@ -31,7 +31,7 @@ export default function Presentations() {
                   href={item.href} 
                   className={`link-text text-[var(--blue-1)] hover:underline ${
                     item.label === 'Presentations' 
-                      ? 'border-b border-[var(--blue-1)] pb-1' 
+                      ? 'font-bold' 
                       : ''
                   }`}
                 >
