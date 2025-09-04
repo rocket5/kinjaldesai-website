@@ -17,7 +17,6 @@ This project is built with the **T3 Stack** and includes:
 
 - **Next.js 15** (App Router) - React framework with file-based routing
 - **TypeScript** - Type safety throughout the codebase
-- **tRPC** - Type-safe API layer for client-server communication
 - **TanStack Query** (React Query) - Server state management
 - **Tailwind CSS 4** - Utility-first CSS framework
 - **Builder.io** - Content management integration
@@ -75,7 +74,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Technical Features
 - Server-side rendering for optimal performance
-- Type-safe API layer with tRPC
 - Environment variable validation
 - Automated code formatting and linting
 - SEO optimization with meta tags and structured data
