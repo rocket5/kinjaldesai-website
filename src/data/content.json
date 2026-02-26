@@ -21,6 +21,14 @@
     "title": "Select Publications",
     "entries": [
       {
+        "authors": "Desai, K., Tymofyeyeva, A., Javier, M., Svergun, N., Ye, V., Bullivant, G., Forst, J., Ware, M., Kushida, M., Lee, L., Yu, C., Whetstone, H., Ward, R., Dave, B. M., Aman, A., & Dirks, P. B.",
+        "year": "(2026)",
+        "title": "Convergence on BRAF and MAPK Signaling in Glioma Development in a P53-ENU model.",
+        "journal": "bioRxiv",
+        "details": "(p. 2026.02.23.707201)",
+        "link": "https://www.biorxiv.org/content/10.64898/2026.02.23.707201v1"
+      },
+      {
         "authors": "Desai, K., Wanggou, S., Luis, E., Whetstone, H., Yu, C., Vanner, R. J., Selvadurai, H. J., Lee, L., Vijay, J., Jaramillo, J. E., Fan, J., Guilhamon, P., Kushida, M., Li, X., Stein, G., Kesari, S., Simons, B. D., Huang, X., & Dirks, P. B.",
         "year": "(2025)",
         "title": "OLIG2 mediates a rare targetable stem cell fate transition in sonic hedgehog medulloblastoma.",
